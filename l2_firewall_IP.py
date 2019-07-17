@@ -1,10 +1,5 @@
 
-from pox.core import core
-import pox.openflow.libopenflow_01 as of
-from pox.lib.util import dpid_to_str
-from pox.lib.util import str_to_bool
-from pox.lib.addresses import EthAddr,IPAddr
-import pox.lib.packet as pkt
+from pox import *
 import time
 
 log = core.getLogger()
